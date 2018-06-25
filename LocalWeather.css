@@ -1,0 +1,52 @@
+body{
+	min-height: 600px;
+	min-width: 1300px;
+	text-align: center;
+	background-color: rgb(20, 47, 91);
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+h1{
+	line-height: 75px;
+	font-weight: 900;
+	font-size: 3em;
+}
+
+.container-fluid{
+	margin: 0 auto;
+	padding-top: 50px;
+	width: 60%;
+}
+
+.column{
+	min-width: 250px;
+}
+
+.well{
+	width: 90%;
+	min-width: 250px;
+	height: auto;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	display: inline-block;
+	background-color: black;
+	text-align: center;
+	font-size: 2em;
+}
+
+#temp{
+	color: blue;
+}
+
+#weather{
+	text-transform: capitalize;
+}
+
+#icon{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 10px;
+}
