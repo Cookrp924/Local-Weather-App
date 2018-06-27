@@ -1,6 +1,6 @@
 function getWeather(lat, lon){
 	$(document).ready(function(){
-		$.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=b7fc987f11d7a2fe55fa4907398cfada", function(data){
+		$.getJSON("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=b7fc987f11d7a2fe55fa4907398cfada", function(data){
   				$("#city").html(data.name + ", NC");
   				$("#weather").html(data.weather[0].description);
   				$("#humidity").html(data.main.humidity + " %");
